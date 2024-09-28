@@ -52,3 +52,5 @@ setopt hist_find_no_dups
 
 alias ls="ls --color"
 alias cls="clear"
+alias gc="git clone"
+alias ovs='code $(fzf --preview="cat {}")'
